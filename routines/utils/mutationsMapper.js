@@ -1,4 +1,16 @@
 /**
+ *
+ * Author:  Jhoan Esneyder Peña
+ * Email: esneideramy@gmail.com
+ * Description: Utility Mapper method for mutations that will be applied to a JSON document.
+ * Helps to identify the mutation type just like: $add/$update/$remove, and sorts all the mutations to be applied in the mentioned order.
+ *
+ * License: MIT - Copyright (c) Jhoan Esneyder Peña
+ * @link https://github.com/EsneyderP/AspireIQ_Test
+ *
+ */
+
+/**
  * Contains all the mapped mutations
  */
 let mapped_muttations = [];

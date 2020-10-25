@@ -1,3 +1,14 @@
+/**
+ *
+ * Author:  Jhoan Esneyder Peña
+ * Email: esneideramy@gmail.com
+ * Description: Applies all the mapped mutations to a JSON document in the following order: $add -> $update -> $remove
+ * in order to keep the integrity of the document's data that is going to be modified.
+ *
+ * License: MIT - Copyright (c) Jhoan Esneyder Peña
+ * @link https://github.com/EsneyderP/AspireIQ_Test
+ *
+ */
 const mutationsMapper = require('./utils/mutationsMapper');
 
 module.exports = {
