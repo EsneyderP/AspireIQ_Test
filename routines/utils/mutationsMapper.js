@@ -33,7 +33,9 @@ module.exports = {
      *      @param {Object} path.propKey The name of the property in the path
      *      @param {Object} path.propValue The value associated to the [propKey] if any.
      *      @param {Object} action The action that the mutation is going to perform: $add/$update/$remove
-     *      
+     *      @param {Object} data The specific data that is going to be applied to the document
+     *      @param {Number} priority A numeric value (1,2,3) that specifies the priority (ordering) of the mutation, 
+     *      where 1 is for $add requests, 2 for $updates and 3 for the $remove ones
      * }
      */
     getMappedMutations : function (mutation) {
